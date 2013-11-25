@@ -1,0 +1,50 @@
+##
+# Font Custom Configuration
+##
+
+##
+# Project Info
+#   Learn more about these options by running `fontcustom help`
+#   or visiting <http://fontcustom.com>.
+##
+
+font_name: fontess
+#css_prefix: icon-
+#preprocessor_path: ""
+#autowidth: false
+no_hash: true
+#debug: false
+#quiet: false
+
+##
+# Project Paths
+#   Relative paths are expanded from PROJECT_ROOT (defaults to the directory
+#   where the fontcustom command is run). INPUT and OUTPUT can be strings,
+#   hashes or file types / names.
+##
+
+#project_root: some/other/place
+#manifest: tmp/fontcustom
+
+input:
+  vectors: src/
+  templates: templates/
+
+output:
+  fonts: build/assets/fonts
+  css: build/assets/stylesheets
+  preview: build/views/styleguide
+  fontess-preview.html: build/views/styleguide
+
+##
+# Templates
+#   Included in Font Custom:
+#       preview, css, scss, scss-rails, bootstrap, bootstrap-scss,
+#       bootstrap-ie7, bootstrap-ie7-scss
+#   Included in Fontess:
+#       fontess-preview.html
+#   Custom templates should be saved in the INPUT[:templates] directory and
+#   referenced by their base file name.
+###
+
+templates: [ fontess-preview.html ]
