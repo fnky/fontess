@@ -64,9 +64,6 @@ Make sure your view is in **Pixel Preview** mode (**View** > **Check Pixel Previ
 ## Credits
 
 - [Icomoon](http://icomoon.io/) has a great documentation on how to optimize icon fonts. You can read the documentation [here](http://icomoon.io/docs.html).
-
 - [James Bryant](http://jamesbryant.com.au/round-circles-in-illustrator/) help to keep perfect circles in Illustrator.
-
 - [Ward Penny at Pivotallabs](http://pivotallabs.com/generate-icon-fonts-automatically-with-fontcustom/) get just the right file format and more SVG quirkness for Font Custom.
-
 - [Font Custom](http://fontcustom.com/) which this boilerplate is made out of, simply a great and very easy tool.
